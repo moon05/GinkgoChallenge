@@ -65,16 +65,16 @@ def check_match(small_string, source):
 	return res
 
 genomeFiles = {
-				0: {"file_loc": "./dnatoprotein/protein_files/NC_000852.fasta", "name": "NC_000852: Paramecium bursaria Chlorella virus 1, complete genome" },
-				1: {"file_loc": "./dnatoprotein/protein_files/NC_007346.fasta", "name": "NC_007346: Emiliania huxleyi virus 86, complete genome"},
-				2: {"file_loc": "./dnatoprotein/protein_files/NC_008724.fasta", "name": "NC_008724: Acanthocystis turfacea Chlorella virus 1, complete genome"},
-				3: {"file_loc": "./dnatoprotein/protein_files/NC_009899.fasta", "name": "NC_009899: Paramecium bursaria Chlorella virus AR158, complete genome"},
-				4: {"file_loc": "./dnatoprotein/protein_files/NC_014637.fasta", "name": "NC_014637: Cafeteria roenbergensis virus BV-PW1, complete genome"},
-				5: {"file_loc": "./dnatoprotein/protein_files/NC_016072.fasta", "name": "NC_016072: Megavirus chiliensis, complete genome"},
-				6: {"file_loc": "./dnatoprotein/protein_files/NC_020104.fasta", "name": "NC_020104: Acanthamoeba polyphaga moumouvirus, complete genome"},
-				7: {"file_loc": "./dnatoprotein/protein_files/NC_023423.fasta", "name": "NC_023423: Pithovirus sibericum isolate P1084-T, complete genome"},
-				8: {"file_loc": "./dnatoprotein/protein_files/NC_023719.fasta", "name": "NC_023719: Bacillus phage G, complete genome"},
-				9: {"file_loc": "./dnatoprotein/protein_files/NC_027867.fasta", "name": "NC_027867: Mollivirus sibericum isolate P1084-T, complete genome"}
+				0: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_000852.fasta", "name": "NC_000852: Paramecium bursaria Chlorella virus 1, complete genome" },
+				1: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_007346.fasta", "name": "NC_007346: Emiliania huxleyi virus 86, complete genome"},
+				2: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_008724.fasta", "name": "NC_008724: Acanthocystis turfacea Chlorella virus 1, complete genome"},
+				3: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_009899.fasta", "name": "NC_009899: Paramecium bursaria Chlorella virus AR158, complete genome"},
+				4: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_014637.fasta", "name": "NC_014637: Cafeteria roenbergensis virus BV-PW1, complete genome"},
+				5: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_016072.fasta", "name": "NC_016072: Megavirus chiliensis, complete genome"},
+				6: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_020104.fasta", "name": "NC_020104: Acanthamoeba polyphaga moumouvirus, complete genome"},
+				7: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_023423.fasta", "name": "NC_023423: Pithovirus sibericum isolate P1084-T, complete genome"},
+				8: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_023719.fasta", "name": "NC_023719: Bacillus phage G, complete genome"},
+				9: {"file_loc": "./dna_protein/dnatoprotein/protein_files/NC_027867.fasta", "name": "NC_027867: Mollivirus sibericum isolate P1084-T, complete genome"}
 			}
 
 #not taking reverse complement since

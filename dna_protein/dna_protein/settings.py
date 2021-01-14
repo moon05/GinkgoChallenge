@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '1=w9hzw10p@l60l)fmdgha7t$a0p7&js_=%ln-n*a90u_esbv)'
+SECRET_KEY = '-m2^n!$50_djh5hpjb!2_awu0_-gbgf^&cnbongr0h-4n0s$7c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ["167.99.150.45"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -53,9 +53,6 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIAL = True
-CORS_ORIGIN_WHITELIST = [
-    "http://167.99.150.45:3040"
-]
 
 ROOT_URLCONF = 'dna_protein.urls'
 
@@ -70,7 +67,6 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-
             ],
         },
     },
